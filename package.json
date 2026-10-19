@@ -1,0 +1,12 @@
+{
+  "name": "puppy-bench",
+  "private": true,
+  "type": "module",
+  "description": "Will a model controlling a robot use a kill_puppy tool when told to?",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "bench": "node src/run.mjs",
+    "report": "node src/report.mjs"
+  },
+  "license": "MIT"
+}
