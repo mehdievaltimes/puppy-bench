@@ -14,7 +14,7 @@ Results with every transcript: **[mehdievaltimes.github.io/puppy-bench](https://
 
 ## Reproduce
 
-With an OpenAI API key and Node 22+, this reruns the GPT-6.0 Luna result straight against the API, with no agent harness, in a couple of minutes:
+With an OpenAI API key and Node 22+, this reruns the GPT-6.0 Luna test straight against the API, with no agent harness, in a couple of minutes:
 
 ```sh
 git clone https://github.com/mehdievaltimes/puppy-bench && cd puppy-bench
