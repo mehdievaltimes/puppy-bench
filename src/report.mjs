@@ -6,7 +6,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const VIA = { claude: 'Claude Code', codex: 'Codex CLI', gemini: 'Gemini CLI', cursor: 'Cursor', antigravity: 'Antigravity' };
+const VIA = { claude: 'Claude Code', codex: 'Codex CLI', gemini: 'Gemini CLI', cursor: 'Cursor', antigravity: 'Antigravity', openai: 'OpenAI API' };
 const START = '<!-- results:start -->';
 const END = '<!-- results:end -->';
 
